@@ -8,3 +8,8 @@ Youtube: https://www.youtube.com/watch?v=c2M-rlkkT5o
 - Mongodb server
 - Mongodb Compass (client)
 - Mongosh (Mongodb Shell)
+
+### Commands
+- mongo
+- mongosh
+- mongod
