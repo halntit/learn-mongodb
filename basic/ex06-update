@@ -1,0 +1,14 @@
+=========================================================
+Can use COMPASS application or command lines shown below:
+=========================================================
+--db.students.update({query}, {update data})--
+
+db.students.updateOne({name:"Ha"}, {$set:{gpa:4.0}})
+
+db.students.updateOne({name:"Ha"}, {$unset:{gpa:null}})
+
+db.students.updateMany({}, {$set:{gpa:3.9}})
+
+db.students.updateMany({}, {$unset:{gpa:''}})
+
+db.students.updateMany({gpa:{$exists:false}}, {$set:{gpa:3.5}})

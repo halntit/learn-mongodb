@@ -1,0 +1,8 @@
+=========================================================
+Can use COMPASS application or command lines shown below:
+=========================================================
+--db.students.delete({query})--
+
+db.students.deleteOne({name:"Ha"})
+
+db.students.deleteMany({gpa:3.9})

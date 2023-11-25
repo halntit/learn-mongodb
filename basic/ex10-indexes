@@ -1,0 +1,8 @@
+=========================================================
+Can use COMPASS application or command lines shown below:
+=========================================================
+db.students.find({ name: "Ha"}).explain("executionStats")
+
+db.students.createIndex({name:1})
+
+db.students.getIndexes()

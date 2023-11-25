@@ -1,0 +1,16 @@
+=========================================================
+Can use COMPASS application or command lines shown below:
+=========================================================
+--db.students.find({query}, {project})--
+
+db.students.find({
+    name: "Ha"
+})
+    Find by name
+
+db.students.find({}, {name:true})
+    Find all, show name (and _id)
+    First arg is Filter, second is Projection
+
+db.students.find({}, {_id:false, name:true})
+    Find all, show only name

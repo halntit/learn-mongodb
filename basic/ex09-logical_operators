@@ -1,0 +1,14 @@
+=========================================================
+Can use COMPASS application or command lines shown below:
+=========================================================
+db.students.find({$and:[queries]})
+
+db.students.find({$and: [
+    {name:{$in: ["Ha", "Quan"]}},
+    {gpa:3.5}
+]})
+
+$and
+$or
+$nor
+$not

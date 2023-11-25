@@ -1,0 +1,13 @@
+=========================================================
+Can use COMPASS application or command lines shown below:
+=========================================================
+use school
+    Create empty DB
+db.createCollection('students')
+    Create new collection
+db.students.insertOne({'name': 'Ha', age: 11, gpa: 3.2})
+    Insert data
+db.students.insertMany([{'name': 'Quan', age: 10, gpa: 3.8}, {'name': 'Quyen', age: 4, gpa: 3.7}])
+    Insert multiple data
+db.students.find()
+    Find data

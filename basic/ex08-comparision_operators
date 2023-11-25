@@ -1,0 +1,19 @@
+=========================================================
+Can use COMPASS application or command lines shown below:
+=========================================================
+db.students.find({name:{$ne:"Ha"}})
+
+$ne: not equals
+
+$lt: less than
+$lte: less than or equals
+
+$gt: greater than
+$gte: greater than or equals
+
+$in
+$nin: not in
+
+db.students.find({gpa:{$lt:5, $gt:2}})
+
+db.students.find({name:{$in: ["Ha", "Quan"]}})

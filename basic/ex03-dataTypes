@@ -1,0 +1,9 @@
+Data types:
+- String
+- Integer
+- Double
+- Boolean
+- Date object: new Date()
+- null
+- Array
+- Nested object

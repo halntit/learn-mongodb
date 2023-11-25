@@ -1,0 +1,11 @@
+=========================================================
+Can use COMPASS application or command lines shown below:
+=========================================================
+db.students.find().sort({name:1})
+    Find data then sort data by name; 1 for asc, -1 for desc
+
+db.students.find().limit(2)
+    Find data then limit 2
+
+db.students.find().sort({name:1}).limit(2)
+    Find data then sort data by name and then limit 2

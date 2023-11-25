@@ -1,0 +1,18 @@
+- Download MongoDB community server
+- Install w/ Compass
+- Install Mongo shell (mongosh)
+- Add system path to mongosh
+
+=========================================================
+Can use COMPASS application or command lines shown below:
+=========================================================
+show dbs
+    Show all DBs
+use school
+    Switch DB (brand new, empty)
+db.createCollection('students')
+    Create collection named students
+show dbs
+    Show all DBs (with 'school')
+db.dropDatabase()
+    Drop current DB
