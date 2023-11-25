@@ -1,0 +1,8 @@
+show dbs
+    Show all DBs
+use admin
+    Switch DB
+DB.collection(ex1)
+    Create collection
+show dbs
+    Show all DBs
